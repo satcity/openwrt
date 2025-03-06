@@ -340,7 +340,7 @@ endef
 TARGET_DEVICES += tplink_tl-wr743nd-v1
 
 define Device/tplink_tl-wr802n-v1
-  $(Device/tplink-4mlzma)
+  $(Device/tplink-16mlzma)
   SOC := qca9533
   DEVICE_MODEL := TL-WR802N
   DEVICE_VARIANT := v1
